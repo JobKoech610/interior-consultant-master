@@ -1,0 +1,80 @@
+
+body{
+    background-color: black;
+    color: #fff;
+    margin: 15px;
+}
+.navbar{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+
+}
+.logo{
+    margin: 0;
+    width: 120px;
+    border: 1px solid #fff;
+    text-align: center;
+}
+
+.links{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    list-style-type: none;
+}
+
+link:hover {
+    text-decoration: underline;
+  }
+
+.body{
+    height: 500px;
+    
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+}
+
+.cite{
+    display: inline-flex;
+    height: 500px;
+    width: 200px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.image{
+    z-index: 1;
+    position: relative;
+}
+
+.card{
+ background-color: black;
+ width: 300px;
+ height: 150px;   
+ display: inline-flex;
+ flex-direction: column;
+ margin: 15px;
+ gap: 10px;
+ /* border: 1px solid white; */
+ position: absolute;
+ left: 50em;
+ bottom: 5em;
+ z-index: 2;
+ padding: 5px;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.profile-image{
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+}
+
